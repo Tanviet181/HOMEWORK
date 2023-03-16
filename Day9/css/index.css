@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    width: 0 auto;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.header{
+    background-color: aqua;
+    text-align: center;
+}
+.nav>ul{
+    display: flex;
+    background-color: beige;
+    gap: 20px;
+    width: 10px;
+}
+
+.item{
+    display: flex;
+    background-color: black;
+    min-width: 20%;
+    height: 50px;
+    
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(224, 218, 218);
+}

@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+header, footer{
+    background-color: #00ffff;
+    color: red;
+    padding: 30px 0;
+}
+header{
+    text-align: center;
+}
+.nav{
+    background-color: orangered;
+    color: aliceblue;
+}
+.nav>ul{
+    display: flex;
+    padding: 10px 0;
+    gap: 20px;
+}
+.body_wraper{
+    display: flex;
+
+}
+.body_wraper main{
+    flex: 1;
+    background-color: lawngreen;
+    min-height: 450px;
+}
+.body_wraper aside{
+    width:  30%;
+    background-color: azure;
+}
+.item{
+    background-color: black;
+    color: aliceblue;
+}
+.item>ul{
+    display: flex;
+    gap: 10px;
+}
