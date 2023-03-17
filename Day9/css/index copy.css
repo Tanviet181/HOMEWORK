@@ -28,7 +28,7 @@ header{
 .body_wraper main{
     flex: 1;
     background-color: lawngreen;
-    min-height: 450px;
+    min-height: 560px;
 }
 .body_wraper aside{
     width:  30%;
